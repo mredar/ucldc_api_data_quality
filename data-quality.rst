@@ -20,6 +20,8 @@ Some tools looked at
 
 dataprofiler -- http://sourceforge.net/projects/dataquality/
     not useful, aimed at sql dbs couldn't start without a db connect
+    
+    Version 6.1.6 Provides file loader option that does not require DB connection. Also a demo DB  is shipped with distribution so no need to connect to any external DB ( if using file profiling)
 
 talend os -
 
