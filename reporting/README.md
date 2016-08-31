@@ -44,7 +44,7 @@ git pull origin master
 
 # Setup the data sources
 
-The "calisphere" entry will be for the existing index to compare to, the "new-index" is the index being compared. You can actually compare any 2 Solr indexes that have the Calisphere schema by changing these URLs.
+The "calisphere" entry will be for the existing index to compare to, the "new-index" is the index being compared. You can actually compare any 2 Solr indexes that have the Calisphere schema by changing these URLs (e.g., compare the current published index at `https://solr.calisphere.org/solr/query` against either the candidate Solr index at `https://harvest-prd.cdlib.org/solr_api/query` or the Solr stage index at `https://harvest-stg.cdlib.org/solr_api/query`).
 
 Now copy `report.ini.tmpl` to `report.ini` in the reporting directory and edit:
 
